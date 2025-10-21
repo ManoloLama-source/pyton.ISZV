@@ -5,5 +5,5 @@ nombre = input("¿Cuál es tu nombre? ")
 numero = int(input("¿Cuántas veces quieres que repita tu nombre? "))
 
 # Imprimir el nombre tantas veces como el número introducido
-for i in range(numero):#For i es un bucque que con range y el inoput hace que se repita
+for i in range(numero):#For i es un bucle que con range y el inoput hace que se repita
     print(nombre)
