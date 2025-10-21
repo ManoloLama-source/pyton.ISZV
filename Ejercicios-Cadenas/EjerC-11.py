@@ -7,7 +7,7 @@ unidades = int(input("Introduce el número de unidades: "))
 coste_total = precio * unidades
 
 # 
-partes = [
+partes = [#lista de partes que luego se unen
     f"{nombre}:",
     f"{precio:6.2f} € ",#Espacio total 6, dos decimales que se ponen con .2f
     f"Unidades: {unidades:03d} ",#Tres digitos con ceros a la izquierda si es necesario
